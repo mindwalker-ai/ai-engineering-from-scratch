@@ -3,13 +3,6 @@ name: Deploy site to GitHub Pages
 on:
   push:
     branches: [main]
-    paths:
-      - 'site/**'
-      - 'README.md'
-      - 'ROADMAP.md'
-      - 'glossary/**'
-      - 'phases/**/docs/en.md'
-      - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
 # Allow the GITHUB_TOKEN to enable Pages and publish the artifact.
