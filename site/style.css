@@ -254,8 +254,8 @@ p.dropcap::first-letter {
   color: var(--ink);
   border-bottom: none;
   display: flex;
-  align-items: baseline;
-  gap: 8px;
+  align-items: center;
+  gap: 9px;
 }
 
 .logo:hover {
@@ -265,9 +265,9 @@ p.dropcap::first-letter {
 
 .logo-icon {
   display: inline-block;
-  width: 12px;
-  height: 12px;
-  background: var(--blueprint);
+  height: 22px;
+  width: auto;
+  background: none;
 }
 
 .header-nav {
@@ -998,8 +998,8 @@ body.js-anim .toc-row.in-view {
   }
 
   .logo-icon {
-    width: 10px;
-    height: 10px;
+    height: 18px;
+    width: auto;
   }
 
   .header-github {
